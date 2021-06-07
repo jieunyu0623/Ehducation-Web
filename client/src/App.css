@@ -1,0 +1,283 @@
+.container {
+  margin: inherit;
+  overflow: hidden;
+  /* padding: 0 2rem; */
+  background-color: #ffffed;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.main {
+  background-color: #ffffed;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 1px var(--primary-color);
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-bottom: 10px;
+  background-color: #ffffed;
+}
+
+.logoStyle {
+  width: 120px;
+  height: 70px;
+  padding: 5px;
+}
+
+.searchBoxStyle {
+  padding: 15px;
+  width: 160px;
+  height: 20px;
+  margin-left: 60px;
+}
+
+.searchSubmit {
+  border-style: hidden;
+  background-color: #ffffed;
+}
+
+.searchSubmit:active {
+  background-color: #ffffed;
+}
+
+.searchSubmit:focus {
+  background-color: #ffffed;
+}
+
+.askButton {
+  padding: 12px 25px 12px 25px;
+  background-color: #d9f6aa;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.askButton:hover {
+  background-color: #84bc68;
+}
+
+.askButton:active {
+  background-color: #84bc68;
+}
+
+.askButton:focus {
+  background-color: #d9f6aa;
+}
+
+.push {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.push2 {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media (max-width: 645px) {
+  .searchBoxStyle {
+    display: none;
+  }
+
+  .fa-search {
+    display: none;
+  }
+}
+
+.gradeButtons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 7px;
+}
+
+.gradeButtons > li {
+  flex: 120px;
+}
+
+li {
+  width: 100%;
+}
+
+.subjectButtons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 7px;
+}
+
+.buttonsForGrades {
+  padding: 6px 15px 6px 15px;
+  border-radius: 5px;
+  background-color: #d9f6aa;
+  border: none;
+  cursor: pointer;
+  min-width: 55px;
+}
+
+.buttonsForGrades.is-checked {
+  background-color: #84bc68;
+}
+
+.buttonsForGrades:focus {
+  background-color: #84bc68;
+}
+
+.buttonsForGrades:active {
+  background-color: #84bc68;
+}
+
+.buttonsForGrades:hover {
+  background-color: #84bc68;
+}
+
+.buttonsForSubjects {
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+  background-color: #d9f6aa;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonsForSubjects.is-checked {
+  background-color: #84bc68;
+}
+
+.buttonsForSubjects:focus {
+  background-color: #84bc68;
+}
+
+.buttonsForSubjects:active {
+  background-color: #84bc68;
+}
+
+.buttonsForSubjects:hover {
+  background-color: #84bc68;
+}
+
+.homeContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.filterBoard {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  border-right: solid 1px var(--primary-color);
+  opacity: 0.9;
+  margin-right: 1rem;
+  border-right: 1px solid #bbbbbb;
+  padding-right: 10px;
+  background-color: #ffffed;
+}
+
+.questionBoard {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  overflow-wrap: normal;
+}
+
+.questionNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 1px var(--primary-color);
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  border-bottom: 1px solid #bbbbbb;
+  padding-bottom: 10px;
+  background-color: #ffffed;
+}
+
+.questionNavButton {
+  padding: 10px 18px 10px 18px;
+  margin: 45px 10px 0px 10px;
+  background-color: #d9f6aa;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.questionNavButton:focus {
+  background-color: #84bc68;
+}
+
+.questionNavButton:hover {
+  background-color: #84bc68;
+}
+
+.qusetionButtons {
+  display: flex;
+  justify-content: right;
+}
+
+.questionTitle {
+  padding: 8px;
+}
+
+.questionBody {
+  margin-left: 50px;
+  padding: 10px;
+}
+.questionBoxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e4f2ff;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.questionBoxLeftPane {
+  padding: 5px 10px 15px 30px;
+}
+
+.questionBoxRightPane {
+  padding: 20px 30px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: auto;
+  }
+}
