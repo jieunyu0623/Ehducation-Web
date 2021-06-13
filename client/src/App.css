@@ -281,3 +281,135 @@ li {
     width: auto;
   }
 }
+
+.myPageContainer {
+  display: flex;
+}
+
+.myPageLeftPane {
+  flex-grow: 3;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.myPageRightPane {
+  flex-grow: 4;
+  padding: 10px;
+}
+
+.myPageQuestionButton {
+  background-color: #ffffed;
+  border-radius: 2px;
+  border: none;
+  padding: 0px 30px 0px 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.myPageQuestionButton:focus {
+  background-color: #d9f6aa;
+}
+
+.myPageAnswerButton {
+  background-color: #ffffed;
+  border-radius: 2px;
+  border: none;
+  padding: 0px 40px 0px 40px;
+  text-align: center;
+}
+
+.myPageAnswerButton:focus {
+  background-color: #d9f6aa;
+}
+
+.nameContainer {
+  display: flex;
+  background-color: #e4f2ff;
+  width: 200px;
+  height: 220px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.myPageNameField {
+  /* width: 60% !important; */
+  border-bottom: none !important;
+  border-color: #e4f2ff;
+  text-decoration: none !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* .myPageNameField.is-disabled {
+    border-bottom: none !important;
+  border-color: #e4f2ff;
+  text-decoration: none !important;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: black;
+  color: black;
+} */
+
+.myPageNameField:disabled {
+  background-color: #1C81DE;
+  color: black;
+  font-size: 20px;
+}
+
+input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type=text]:not(.browser-default):disabled, input[type=text]:not(.browser-default)[readonly="readonly"], input[type=password]:not(.browser-default):disabled, input[type=password]:not(.browser-default)[readonly="readonly"], input[type=email]:not(.browser-default):disabled, input[type=email]:not(.browser-default)[readonly="readonly"], input[type=url]:not(.browser-default):disabled, input[type=url]:not(.browser-default)[readonly="readonly"], input[type=time]:not(.browser-default):disabled, input[type=time]:not(.browser-default)[readonly="readonly"], input[type=date]:not(.browser-default):disabled, input[type=date]:not(.browser-default)[readonly="readonly"], input[type=datetime]:not(.browser-default):disabled, input[type=datetime]:not(.browser-default)[readonly="readonly"], input[type=datetime-local]:not(.browser-default):disabled, input[type=datetime-local]:not(.browser-default)[readonly="readonly"], input[type=tel]:not(.browser-default):disabled, input[type=tel]:not(.browser-default)[readonly="readonly"], input[type=number]:not(.browser-default):disabled, input[type=number]:not(.browser-default)[readonly="readonly"], input[type=search]:not(.browser-default):disabled, input[type=search]:not(.browser-default)[readonly="readonly"], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"] {
+    color: black;
+    font-size: 20px
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  font-size: 20px;
+}
+
+/* .myPageNameField.is-enabled {
+  text-decoration: #1C81DE;
+    text-align: center;
+  font-weight: bold;
+} */
+
+.editNameMyPage {
+  border: none;
+  background-color: #e4f2ff;
+  margin-top: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+.editNameMyPage:active {
+  background-color: #e4f2ff;
+}
+
+.editNameMyPage:focus {
+  background-color: #e4f2ff;
+}
+
+.expBarContainer {
+  width: 250px;
+  height: 35px;
+  background-color: #C4C4C4;
+  margin: auto;
+}
+
+.expBar {
+  width: 150px;
+    height: 35px;
+    background-color: #1C81DE;
+}
+
+.logoutButton {
+  border-radius: 5px;
+  background-color: #D9F6AA;
+  border: none;
+  padding: 10px 37px 10px 37px;
+  margin-top: 10px;
+}
