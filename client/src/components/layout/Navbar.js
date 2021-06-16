@@ -38,14 +38,16 @@ const Navbar = () => {
         }}
         className='push2'
       >
-        <i
-          className='fas fa-user-circle'
-          style={{
-            fontSize: '1.75rem',
-            color: '#333333',
-            padding: '10px',
-          }}
-        ></i>
+        <button>
+          <i
+            className='fas fa-user-circle'
+            style={{
+              fontSize: '1.75rem',
+              color: '#333333',
+              padding: '10px',
+            }}
+          ></i>
+        </button>
       </div>
     </div>
   );
